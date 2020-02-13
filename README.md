@@ -20,6 +20,16 @@ Desenvolvido para começar a codar a partir desta estrutura inicial.
         }
     }
     
+    
+- Configurar o launch.json
+{
+"type": "node",
+"request": "attach",
+"name": "Launch Program",
+"restart": true,
+"protocol": "inspector",
+}
+
 ### Iniciar o projeto
 - git clone https://github.com/alanladeira/padronizacao-de-codigo.git
 - cd padronizacao-de-codigo
